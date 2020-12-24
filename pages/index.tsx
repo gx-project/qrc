@@ -33,11 +33,37 @@ const Index = observer(() => {
       <Head>
         <title>Leitor de QRCode</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#000"></meta>
         <meta
           name="description"
           content="Leitor de QRCode no navegador."
         ></meta>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/icons/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/icons/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/icons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/icons/safari-pinned-tab.svg"
+          color="#5bbad5"
+        />
+        <link rel="shortcut icon" href="/icons/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <meta name="theme-color" content="#000000"></meta>
       </Head>
       <div className={styles.container}>
         <Modal>

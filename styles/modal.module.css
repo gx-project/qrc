@@ -10,6 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.open {
+  transform: translateY(-100%);
 }
 
 .containerClick {
@@ -18,11 +23,6 @@
   height: 100%;
   z-index: 1;
 }
-
-.open {
-  transform: translateY(-100%);
-}
-
 .content {
   position: relative;
   z-index: 2;
